@@ -1,10 +1,10 @@
-const genId1 = require('4_xid');
-const genId2 = require('1_xid');
+const genId1 = require('teuy_xid');
+const genId2 = require('aaza_xid');
 const crypto = require('crypto');
 
 function generateKey() {
 	var  sha1 = crypto.createHash('sha1');
-	return sha1.update(genId1() + '|bv9TgtszGN|' + genId2()).digest('base64');
+	return sha1.update(genId1() + '|EdlpZt5gW6|' + genId2()).digest('base64');
 }
 
 
