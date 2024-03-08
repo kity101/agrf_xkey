@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "10_xid": "^1.0.0",
+    "4_xid": "^1.0.0",
     "1_xid": "^1.0.0"
   }
 }
